@@ -1,0 +1,19 @@
+/* DashboardQuoteBox.css */
+
+.quote-box {
+    background-color: #be69be;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(110, 205, 150, 0.1);
+    margin-bottom: 20px; /* Add margin to separate the box from other content */
+  }
+  
+  .quote-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .quote-box p {
+    font-style: italic;
+    margin: 0;
+  }
+  

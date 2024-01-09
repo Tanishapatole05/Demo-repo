@@ -1,0 +1,45 @@
+/* SignInPage.css */
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .signin-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signin-container label {
+    margin: 10px 0;
+  }
+  
+  .signin-container input {
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .signin-container button {
+    background-color: rgb(123, 12, 110);
+    margin-top: 5px;
+  }
+  
+  .signin-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #0a0909;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(94, 8, 64, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+  }

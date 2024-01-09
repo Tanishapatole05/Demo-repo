@@ -1,0 +1,166 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/pin3.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgb(110, 24, 94);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  background-color: rgb(128, 15, 128);
+  background-size: contain;
+  font-size: 20px;
+  margin: 0;
+  color: rgb(244, 237, 244);
+}
+
+main {
+  flex-grow: 1;
+}
+
+.footer-buttons {
+  background-color: rgba(106, 23, 98, 0.8);
+  margin-bottom: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  background-color: blueviolet;
+  margin: 10px 5px;
+}
+
+.signin-container {
+  background-image: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: none;
+}
+
+.signin-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin-container label {
+  margin: 10px 0;
+}
+
+.signin-container input {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.signin-container button {
+  margin-top: 10px;
+}
+
+.signin-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.welcome-buttons button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #8d0e65; 
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.welcome-buttons button:hover {
+  background-color: #791361; 
+}
+
+/* SignUpPage.css */
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-container label {
+  margin: 10px 0;
+}
+
+.signup-container input {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.signup-container button {
+  margin-top: 10px;
+}
+
+.signin-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #0a0909;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(94, 8, 64, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+}
